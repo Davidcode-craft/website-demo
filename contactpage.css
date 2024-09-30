@@ -1,0 +1,66 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.logo img {
+    height: 50px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+.content {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+.contact-form {
+    flex: 1;
+}
+.image-section {
+    flex: 1;
+}
+.image-section img {
+    width: 100%;
+    height: auto;
+}
+h1 {
+    color: #8B4513;
+    font-size: 2.5em;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background-color: #8B4513;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    align-self: flex-start;
+}

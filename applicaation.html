@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pet Rescue Adoption Form</title>
+  <link rel="stylesheet" href="application.css">
+</head>
+<body>
+  <div class="adopt-container">
+    <img id="petImage" src="" alt="Pet Image">
+    <h2 id="petName"></h2>
+    <p><strong>Age:</strong> <span id="petAge"></span></p>
+    <p><strong>Size:/Breed</strong> <span id="petSize"></span></p>
+    <p><strong>Gender:</strong> <span id="petGender"></span></p>
+
+</div>
+  <div class="form-container">
+    <div class="form-header">
+      <img src="assets/images/kitttens.jpg" alt="Kittens" class="form-image">
+      <h1>Pet Rescue Adoption Application Form</h1>
+    </div>
+
+      <h2>Applicant Details</h2>
+
+      <label for="applicant-name">Name</label>
+      <input type="text" id="applicant-name" name="applicant-name" placeholder="Full Name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Email Address" required>
+
+      <label for="phone">Phone</label>
+      <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+
+      <label for="address">Address</label>
+      <textarea id="address" name="address" rows="4" placeholder="Home Address" required></textarea>
+
+      <label for="experience">Do you have experience with pets?</label>
+      <div class="radio-group">
+        <input type="radio" id="experience-yes" name="experience" value="Yes" required>
+        <label for="experience-yes">Yes</label>
+        <input type="radio" id="experience-no" name="experience" value="No" required>
+        <label for="experience-no">No</label>
+      </div>
+
+      <button type="submit" class="submit-btn">Submit Application</button>
+    </form>
+  </div>
+<script src="application.js"></script>
+</body>
+</html>

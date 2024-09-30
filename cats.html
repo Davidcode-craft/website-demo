@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cats Available for Adoption</title>
+    <link rel="stylesheet" href="cats.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Pawfect Pet Shop</div>
+        <ul class="nav-links">
+          <li><a href="dogs.html">Dogs & Puppies</a></li>
+          <li><a href="cats.html">Cats & Kittens</a></li>
+          <li><a href="contactpage.html">Contact Us</a></li>
+          <li><a href="timer.html">Get Involved</a></li>
+          <li><a href="contribution.html">Feed A Stray</a></li>
+        </ul>
+      </nav>
+    <h1>Cats Available for Adoption</h1>
+    <div class="container">
+        <div class="filters">
+            <select id="age-filter">
+                <option value="any">Age</option>
+                <option value="kitten">Kitten</option>
+                <option value="adult">Adult</option>
+                <option value="senior">Senior</option>
+            </select>
+            <select id="breed-filter">
+                <option value="any">Breed</option>
+                <option value="short">Short Hair</option>
+                <option value="medium">Medium Hair</option>
+                <option value="long">Long Hair</option>
+            </select>
+            <select id="gender-filter">
+                <option value="any">Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+        <div class="cats-container" id="cats-container"></div>
+    </div>
+<script src="cats.js"></script>
+</body>
+</html>  

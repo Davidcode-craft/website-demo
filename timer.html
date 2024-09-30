@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check your Calender </title>
+    <link rel="stylesheet" href="timer.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Book a Session</h1>
+        <p><i><u>Come and lend us a hand .Volunteer</u></i></p>
+        <div class="appointment-types">
+            <div class="appointment-type" data-duration="60">Play with the bunch<br>1 hour</div>
+            <div class="appointment-type" data-duration="60">Daily Tasks<br>1 hour</div>
+            <div class="appointment-type" data-duration="30">Walking the Dogs<br>30 minutes</div>
+            <div class="appointment-type" data-duration="45">Seminars and other functions<br>45 minutes</div>
+        </div>
+        <div class="calendar" id="calendar"></div>
+        <div class="time-slots" id="timeSlots"></div>
+        <button id="confirmBtn" style="display: none;">Confirm Appointment</button>
+        <div id="countdown"></div>
+    </div>
+
+<script src="timer.js"></script>
+</body>
+</html>

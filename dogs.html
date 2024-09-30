@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dogs Available for Adoption</title>
+    <link rel="stylesheet" href="dogs.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Pawfect Pet Shop</div>
+        <ul class="nav-links">
+          <li><a href="dogs.html">Dogs & Puppies</a></li>
+          <li><a href="cats.html">Cats & Kittens</a></li>
+          <li><a href="contactpage.html">Contact Us</a></li>
+          <li><a href="timer.html">Get Involved</a></li>
+          <li><a href="contribution.html">Feed A Stray</a></li>
+        </ul>
+      </nav>
+    <h1>Dogs Available for Adoption</h1>
+    <div class="container">
+        <div class="filters">
+            <select id="age-filter">
+                <option value="any">Any Age</option>
+                <option value="puppy">Puppy</option>
+                <option value="adult">Adult</option>
+                <option value="senior">Senior</option>
+            </select>
+            <select id="size-filter">
+                <option value="any">Any Size</option>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+            <select id="gender-filter">
+                <option value="any">Any Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+        <div class="dogs-container" id="dogs-container"></div>
+    </div>
+    <script src="dogs.js"></script>
+</body>
+</html>

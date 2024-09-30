@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8B4513;
+    padding: 10px 20px;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+  }
+  
+
+/* Header Image Section */
+.header-image {
+    position: relative;
+    background-image: url('assets/images/together.jpg'); /* Add your image URL here */
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+.overlay h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.overlay p {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0 20px;
+}
+
+/* Giving Section */
+.giving-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.giving-section h2 {
+    color: #8B4513;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.giving-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.give-option {
+    background-color: #8B4513;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.give-option img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.give-option h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.give-option p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .giving-options {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

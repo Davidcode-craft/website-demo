@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    background-image: url("assets/images/wallpaper.jpg");
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+.appointment-types {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.appointment-type {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.appointment-type.selected {
+    background-color: #8B4513;
+    color: white;
+}
+.calendar {
+    margin-bottom: 20px;
+}
+.calendar table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.calendar th, .calendar td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+.calendar td {
+    cursor: pointer;
+}
+.calendar td:hover {
+    background-color: #f0f0f0;
+}
+.calendar td.selected {
+    background-color: #8B4513;
+    color: white;
+}
+.time-slots {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.time-slot {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.time-slot:hover {
+    background-color: #f0f0f0;
+}
+.time-slot.selected {
+    background-color: #8B4513;
+    color: white;
+}
+#confirmBtn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #8B4513;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#confirmBtn:hover {
+    background-color: #8B4513;
+}
+#countdown {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+}
